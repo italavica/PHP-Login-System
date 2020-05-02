@@ -1,0 +1,4 @@
+git add 'file name'
+git commit -m 'msg'
+git log
+git push origin master
