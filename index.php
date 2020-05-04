@@ -17,7 +17,7 @@ require_once 'inc/config.php';
 
     <!--Uikit JS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.2/dist/css/uikit.min.css" />
-    
+    <title>Page title</title>
 </head>
 
 <body>
