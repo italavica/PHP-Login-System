@@ -42,6 +42,10 @@ require_once 'inc/config.php';
                 </div>
             </div>
 
+            <div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none">
+            test
+            </div>
+
             <div class="uk-margin">
                 <button class="uk-button uk-button-default" type="submit">LOGIN</button>
             </div>
