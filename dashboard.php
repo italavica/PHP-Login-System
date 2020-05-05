@@ -1,16 +1,15 @@
 <?php 
 
-//Allow the config
-define('__CONFIG__',true);
-//Require the config
-require_once 'inc/config.php';
+    //Allow the config
+    define('__CONFIG__',true);
+    //Require the config
+    require_once 'inc/config.php';
 
-echo $_SESSION['user_id'] . ' is your user id';
-exit;
 
+    ForceLogin();
 
 ?>
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +27,7 @@ exit;
     <body>
 
         <div class="uk-section uk-container">
-
+Dashboard here
         </div>
 
          <?php require_once 'inc/footer.php'; ?>
